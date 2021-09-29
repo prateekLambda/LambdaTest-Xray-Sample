@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="200" name="DesktopBrowsers" parallel="methods">
+
+
+    <test name="Win10">
+        <parameter name="browser" value="IE"/>
+        <parameter name="version" value="latest"/>
+        <parameter name="platform" value="Win10"/>
+
+        <classes>
+
+            <class name="demoDesktop">
+
+            </class>
+        </classes>
+
+    </test>
+  <!--  <test name="Mac">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="latest-1"/>
+        <parameter name="platform" value="Macos big sur"/>
+
+        <classes>
+            <class name="demoDesktop">
+            </class>
+        </classes>
+    </test>-->
+
+</suite>

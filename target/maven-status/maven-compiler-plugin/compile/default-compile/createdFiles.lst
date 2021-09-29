@@ -1,0 +1,6 @@
+demoDesktop.class
+com\lambdatest\xray\Xray.class
+com\lambdatest\xray\XrayListener.class
+demoMobile.class
+ToDo.class
+com\lambdatest\xray\JiraXray.class
