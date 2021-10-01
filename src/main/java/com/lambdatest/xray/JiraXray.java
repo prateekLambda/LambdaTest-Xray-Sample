@@ -7,8 +7,8 @@ import java.net.URL;
 public class JiraXray {
 
     public void APICall() {
-        String JiraUserName = "prateeks@lambdatest.com";
-        String JiraApiToken = "1yHOI8ELiJ6T7hryDjAQ8A19";
+        String JiraUserName = "Jira_Username/email";
+        String JiraApiToken = "Jira_API_Tocken";
         try {
             String url = "https://" + JiraUserName + ":" + JiraApiToken + "lambdatest.atlassian.net/browse/DEMO-1602";
             URL obj = new URL(url);
